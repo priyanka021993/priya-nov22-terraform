@@ -16,7 +16,6 @@ variable "hw" {
 
 variable "name" {
   type = string
-  description = "Enter your server name"
 }
 
 resource "aws_instance" "myawsserver" {
