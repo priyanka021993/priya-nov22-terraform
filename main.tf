@@ -16,6 +16,8 @@ variable "hw" {
 
 variable "name" {
   type = string
+  default = "t2.nano"
+  description = "Enter your hardware model"
 }
 
 resource "aws_instance" "myawsserver" {
